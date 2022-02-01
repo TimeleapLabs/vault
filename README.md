@@ -8,10 +8,10 @@ to make life easier inside the Kenshi aws flow.
 The following environment variables are availabe for configuration:
 
 1. `VAULT_ADDR`: Address of the vault
-2. `VAULT_AWS_ROLE`: AWS role to use for auth
-3. `AWS_ACCESS_KEY_ID`: AWS access key (Available by default on Lambda)
-4. `AWS_SECRET_ACCESS_KEY`: AWS secret access key (Available by default on Lambda)
-5. `AWS_SESSION_TOKEN`: AWS session (Available by default on Lambda)
+2. `VAULT_IAM_ROLE`: AWS IAM role to use for auth
+3. `AWS_ACCESS_KEY_ID`: AWS access key (Available by default on Lambda, not needed on EC2)
+4. `AWS_SECRET_ACCESS_KEY`: AWS secret access key (Available by default on Lambda, not needed on EC2)
+5. `AWS_SESSION_TOKEN`: AWS session (Available by default on Lambda, not needed on EC2)
 
 ## Methods
 
