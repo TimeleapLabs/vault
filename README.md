@@ -1,4 +1,4 @@
-# Kenshi Vault Wrap
+# Kenshi Vault Helpers
 
 This library wraps the `node-vault` Node.js library, adding a few useful functions
 to make life easier inside the Kenshi aws flow.
