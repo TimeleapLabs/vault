@@ -3,6 +3,14 @@
 This library wraps the `node-vault` Node.js library, adding a few useful functions
 to make life easier inside the Kenshi aws flow.
 
+## Install
+
+Install with
+
+```bash
+npm i -S @kenshi.io/aws-vault
+```
+
 ## Environment Variables
 
 The following environment variables are availabe for configuration:
